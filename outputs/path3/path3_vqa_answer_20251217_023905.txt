@@ -1,0 +1,3 @@
+Question: What animal is in this image?
+Image Description: a brown and white dog laying on top of a lush green field
+Answer: The image shows a brown and white dog laying on top of a lush green field

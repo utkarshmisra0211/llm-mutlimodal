@@ -1,0 +1,8 @@
+=== Multimodal Understanding ===
+
+image_caption: a dog is running in the grass
+audio_transcription: a medieval castle at sunset with dramatic clouds and vibrant color.
+text_input: Combine and understand all inputs
+
+Combined Understanding:
+Visual content: a dog is running in the grass | Audio content: a medieval castle at sunset with dramatic clouds and vibrant color. | Text instruction: Combine and understand all inputs
