@@ -1,4 +1,4 @@
-# Multimodal AI: Three Paths to Guest LLMs
+# Multimodal AI: Three Paths to LLMs
 
 This project explores three different architectural approaches to building multimodal AI systems that can process and generate content across text, images, and audio. Each path represents a different trade-off between simplicity, customization, and performance.
 
