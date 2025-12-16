@@ -148,7 +148,7 @@ class Path1Pipeline:
         print(f"Saved: {output_path}")
         return output_path
     
-    def run(self, audio_path, output_dir="outputs"):
+    def run(self, audio_path, output_dir="outputs/path1"):
         print("\n" + "=" * 60)
         print("Running pipeline...")
         print("=" * 60)
@@ -161,12 +161,12 @@ class Path1Pipeline:
         
         prompt = self.enhance_prompt(text)
         
-        output_img = os.path.join(output_dir, f"image_{ts}.png")
+        output_img = os.path.join(output_dir, f"path1_audio_to_image_{ts}.png")
         self.generate_image(prompt, output_path=output_img)
         
-        with open(os.path.join(output_dir, f"transcription_{ts}.txt"), "w") as f:
+        with open(os.path.join(output_dir, f"path1_transcription_{ts}.txt"), "w") as f:
             f.write(text)
-        with open(os.path.join(output_dir, f"prompt_{ts}.txt"), "w") as f:
+        with open(os.path.join(output_dir, f"path1_enhanced_prompt_{ts}.txt"), "w") as f:
             f.write(prompt)
         
         print("\n" + "=" * 60)
