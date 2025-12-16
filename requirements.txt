@@ -1,0 +1,12 @@
+torch>=2.0.0
+torchaudio>=2.0.0
+openai-whisper
+diffusers
+transformers
+accelerate
+safetensors
+pillow
+numpy
+scipy
+ffmpeg-downloader
+imageio-ffmpeg
